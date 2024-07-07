@@ -1,8 +1,22 @@
-.tab-content {
-    display: none;
-    margin-top: 20px;
+.upg-tabs {
+    display: flex;
+    cursor: pointer;
 }
-.nav-tab-active {
-    background-color: #0073aa !important;
-    color: white !important;
+.upg-tabs div {
+    padding: 10px;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+.upg-tabs div.active {
+    background: #fff;
+    border-bottom: 0;
+}
+.upg-tab-content {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.upg-tab-content.active {
+    display: block;
 }
