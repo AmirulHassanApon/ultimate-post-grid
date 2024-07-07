@@ -1,0 +1,8 @@
+.tab-content {
+    display: none;
+    margin-top: 20px;
+}
+.nav-tab-active {
+    background-color: #0073aa !important;
+    color: white !important;
+}
